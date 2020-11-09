@@ -1,9 +1,9 @@
 import React from 'react';
-
+import '../Views/Views.scss'
 function HelloWorld(props) {
   return (
     
-  <h1>Hello {props.name}</h1>
+  <h1 className="helloName">Hello {props.name}</h1>
     
   );
 }

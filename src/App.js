@@ -1,15 +1,34 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 import './App.scss';
-import HelloWorld from './Components/HelloWorld';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import Home from './Views/Home'
+import About from './Views/About'
+
 
 function App() {
   return (
     <div >
+      <Router>
       <Header/>
-      <HelloWorld />
-      <Footer />
+      <Switch>
+        {/* Since all routes stem from /, use the exact modifier to only display the items when on the home page*/}
+        <Route exact path="/">
+          <Home/>
+        </Route>
+        <Route path="/about">
+          <About/>
+        </Route>
+      </Switch>
+      <Footer/>
+      </Router>
+      
+      
     </div>
   );
 }

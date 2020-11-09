@@ -4,9 +4,9 @@ import './header.scss'
 
 function Header() {
     return(
-        <header>
-            AppName
-            <Navigation/>
+        <header className="header">
+            <span class="name">AppName</span>
+            <Navigation />
         </header>
     )
 }
