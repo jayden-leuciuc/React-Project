@@ -10,12 +10,11 @@ import Footer from './Components/Footer/Footer';
 import Home from './Views/Home'
 import About from './Views/About'
 import Product from './Views/Product'
-
 //REMEMBER TO CD INTO REACT-PROJECT!!
 
 function App() {
   return (
-    <div >
+    <div className="container">
       <Router>
       <Header/>
       <Switch>
@@ -30,10 +29,8 @@ function App() {
           <Product/>
         </Route>
       </Switch>
-      <Footer/>
+      
       </Router>
-      
-      
     </div>
   );
 }

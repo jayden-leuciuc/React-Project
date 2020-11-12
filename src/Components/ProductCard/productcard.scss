@@ -1,0 +1,38 @@
+.parent {
+  padding-left: 1rem;
+}
+.productCard {
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: 33vw;
+}
+.imageCard {
+  height: 33vh;
+  background-color: blue;
+  width: 100%;
+}
+.productContent {
+  padding: 15px;
+}
+.productNameLink {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+.productPrice {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.productDesc {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+.viewButton {
+  background: rgb(26, 74, 90);
+  color: white;
+  padding: 0.75rem;
+  justify-content: center;
+  display: flex;
+}

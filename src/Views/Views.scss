@@ -18,3 +18,20 @@
   color: darkBlue;
   padding: 10px;
 }
+.productContainer {
+  padding-left: 1rem;
+  position: relative;
+  .productName {
+    margin-bottom: 1rem;
+  }
+  .productImg {
+    margin-bottom: 1rem;
+  }
+  .productPrice {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .productDesc {
+    font-weight: normal;
+  }
+}
