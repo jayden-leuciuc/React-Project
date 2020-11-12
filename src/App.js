@@ -9,7 +9,9 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Home from './Views/Home'
 import About from './Views/About'
+import Product from './Views/Product'
 
+//REMEMBER TO CD INTO REACT-PROJECT!!
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About/>
+        </Route>
+        <Route path="/products/:id">
+          <Product/>
         </Route>
       </Switch>
       <Footer/>
