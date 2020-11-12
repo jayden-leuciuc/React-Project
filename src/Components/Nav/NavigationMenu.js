@@ -5,7 +5,7 @@ function NavigationMenu(props) {
     return(
         <div>
         <div className="menuHeading">
-            AppName
+            RandoShop
         </div>
         <ul>
             <li>
