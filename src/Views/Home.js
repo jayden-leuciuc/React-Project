@@ -29,7 +29,7 @@ function Home(){
     }
     return(
         <div>
-            <h1 className="homeHeading">Best sellers</h1>
+            <h1 className="homeHeading">Best Selling Random Items</h1>
             {content}
         </div>
     )

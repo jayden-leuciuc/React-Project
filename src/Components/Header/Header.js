@@ -5,7 +5,7 @@ import './header.scss'
 function Header() {
     return(
         <header className="header">
-            <span class="name">AppName</span>
+            <span class="name">RandoShop</span>
             <Navigation />
         </header>
     )
