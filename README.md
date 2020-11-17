@@ -1,10 +1,10 @@
-#Project:
+# Project:
 RandoShop App
-#Made by:
+# Made by:
 Me (no other contributors)
-#What it does
+# What it does
 This app pulls information like the picture, title, and item description of an item, and displays them on a webpage. The information was pulled from [mockapi.io](https://www.mockapi.io)
-#What I learned from completing this project
+# What I learned from completing this project
 The most important skill of this project is pulling information from an api and displaying the information. I learned about routes and how to redirect the user and how components worked, since this project was made in the beginning of my react obesssion.
-#Technology used:
+# Technology used:
 React, Sass, Mockapi, Git
