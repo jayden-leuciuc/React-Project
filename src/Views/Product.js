@@ -38,7 +38,7 @@ function Product() {
     }
 
     return (
-        <div>
+        <div className="contentContainer">
             {content}
         </div>
     )
