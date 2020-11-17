@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "react-scripts start && node-sass -w scss/ -o react-project/src/css/ --recursive",
     "start": "react-scripts start",
-    "build": "cd react-project $$ npm i && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
