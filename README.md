@@ -9,4 +9,4 @@ The most important skill of this project is pulling information from an api and 
 # Technology used:
 React, Sass, Mockapi, Git
 # Hosted:
-This project is hosted at [click]()
+This project is currently not hosted.
